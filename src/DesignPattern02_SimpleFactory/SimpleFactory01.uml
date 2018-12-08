@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="103.0">DesignPattern02_SimpleFactory.Audi</node>
+    <node x="144.0" y="0.0">DesignPattern02_SimpleFactory.Car</node>
+    <node x="144.0" y="103.0">DesignPattern02_SimpleFactory.Benz</node>
+    <node x="113.90000000000002" y="206.0">DesignPattern02_SimpleFactory.TestFactory01</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DesignPattern02_SimpleFactory.TestFactory01" target="DesignPattern02_SimpleFactory.Benz">
+      <point x="0.0" y="-26.5" />
+      <point x="201.40000000000003" y="181.0" />
+      <point x="206.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.Benz" target="DesignPattern02_SimpleFactory.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.Audi" target="DesignPattern02_SimpleFactory.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="62.0" y="78.0" />
+      <point x="164.66666666666666" y="78.0" />
+      <point x="-41.33333333333334" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.TestFactory01" target="DesignPattern02_SimpleFactory.Audi">
+      <point x="-58.33333333333334" y="-26.5" />
+      <point x="143.06666666666666" y="181.0" />
+      <point x="62.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.TestFactory01" target="DesignPattern02_SimpleFactory.Car">
+      <point x="58.333333333333314" y="-26.5" />
+      <point x="259.73333333333335" y="181.0" />
+      <point x="278.5" y="181.0" />
+      <point x="278.5" y="78.0" />
+      <point x="247.33333333333334" y="78.0" />
+      <point x="41.33333333333334" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="71.0" />
+  <SelectedNodes>
+    <node>DesignPattern02_SimpleFactory.Audi</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

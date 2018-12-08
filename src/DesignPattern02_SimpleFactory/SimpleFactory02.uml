@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="103.0">DesignPattern02_SimpleFactory.Audi</node>
+    <node x="185.22916666666669" y="0.0">DesignPattern02_SimpleFactory.Car</node>
+    <node x="144.0" y="103.0">DesignPattern02_SimpleFactory.Benz</node>
+    <node x="171.25" y="309.0">DesignPattern02_SimpleFactory.TestFactory02</node>
+    <node x="102.51041666666666" y="206.0">DesignPattern02_SimpleFactory.CarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DesignPattern02_SimpleFactory.CarFactory" target="DesignPattern02_SimpleFactory.Benz">
+      <point x="0.0" y="-26.5" />
+      <point x="197.51041666666666" y="181.0" />
+      <point x="206.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.CarFactory" target="DesignPattern02_SimpleFactory.Car">
+      <point x="63.333333333333314" y="-26.5" />
+      <point x="260.84375" y="181.0" />
+      <point x="289.5" y="181.0" />
+      <point x="289.5" y="83.0" />
+      <point x="262.72916666666663" y="83.0" />
+      <point x="15.499999999999972" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.Benz" target="DesignPattern02_SimpleFactory.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="206.0" y="83.0" />
+      <point x="231.72916666666669" y="83.0" />
+      <point x="-15.5" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.Audi" target="DesignPattern02_SimpleFactory.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="62.0" y="83.0" />
+      <point x="200.72916666666669" y="83.0" />
+      <point x="-46.5" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.TestFactory02" target="DesignPattern02_SimpleFactory.Car">
+      <point x="43.75" y="-26.5" />
+      <point x="302.5" y="284.0" />
+      <point x="310.0625" y="284.0" />
+      <point x="310.0625" y="73.0" />
+      <point x="293.72916666666663" y="73.0" />
+      <point x="46.49999999999997" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.CarFactory" target="DesignPattern02_SimpleFactory.Audi">
+      <point x="-63.33333333333334" y="-26.5" />
+      <point x="134.17708333333331" y="181.0" />
+      <point x="62.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="DesignPattern02_SimpleFactory.TestFactory02" target="DesignPattern02_SimpleFactory.CarFactory">
+      <point x="-43.75" y="-26.5" />
+      <point x="215.0" y="284.0" />
+      <point x="197.51041666666666" y="284.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="24.5" />
+  <SelectedNodes>
+    <node>DesignPattern02_SimpleFactory.Audi</node>
+    <node>DesignPattern02_SimpleFactory.Car</node>
+    <node>DesignPattern02_SimpleFactory.CarFactory</node>
+    <node>DesignPattern02_SimpleFactory.Benz</node>
+    <node>DesignPattern02_SimpleFactory.TestFactory02</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
