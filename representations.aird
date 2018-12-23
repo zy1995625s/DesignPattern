@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmi:id="_603F8AZvEemTuqm1mrNx3Q" version="12.1.0.201708031200">
+  <semanticResources>src/DesignPattern02_SimpleFactory/SimpleFactory01.uml</semanticResources>
+  <semanticResources>src/DesignPattern02_SimpleFactory/SimpleFactory02.uml</semanticResources>
+  <semanticResources>factorymethod.uml</semanticResources>
+</viewpoint:DAnalysis>
